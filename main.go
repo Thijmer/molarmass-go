@@ -4,6 +4,7 @@ package main
 
 // License: GPLv3.0
 // Contact me at thijmenvoskuilen@gmail.com if you have any questions.
+// Source code: https://github.com/Thijmer/molarmass-go
 
 import (
 	"bufio"
@@ -307,8 +308,8 @@ Type "help" for help, "license" for the license and "exit" to exit.`)
 			fmt.Println(
 				`===========================
  Molarmass is distributed under the GPLv3.0 license.
- More information about the license: https://www.gnu.org/licenses/gpl-3.0-standalone.html
- Source code: 
+ More information about the license: https://raw.githubusercontent.com/Thijmer/molarmass-go/master/LICENSE
+ Source code: https://github.com/Thijmer/molarmass-go
 ===========================`)
 		} else if command == "" {
 		} else {
